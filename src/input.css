@@ -1,0 +1,23 @@
+/* 1. Usar @font-face para cargar la fuente local */
+@font-face {
+  /* Este es el nombre que usarás en el CSS y en Tailwind */
+  font-family: 'DM Sans Personalizada';
+  /* Ruta a tu archivo TTF. Asegúrate de que esta ruta sea correcta
+     desde donde se accede al CSS en el navegador (ej: /fonts) */
+  src: url('/fonts/dm.ttf') format('truetype');
+  font-weight: 400; /* Define el peso que estás cargando */
+  font-style: normal;
+  font-display: swap; /* Buena práctica para la carga */
+}
+
+/* 2. Importar Tailwind CSS */
+@import "tailwindcss";
+
+/* 3. Configurar en el bloque @theme */
+@theme {
+  /*
+    Esto crea la clase de utilidad: .font-dm-sans-personalizada
+    con tu fuente.
+  */
+  --font-dm-sans-personalizada: 'DM Sans Personalizada', sans-serif;
+}

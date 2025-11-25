@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ruby Joyas | Anillos de Oro, Plata y Diamantes en Argentina</title>
+    <meta name="description" content="Ruby Joyas, tu joyería online de Hurlingham. Descubre nuestra exclusiva colección de anillos, collares y pendientes de oro, plata y diamantes naturales. ¡Envíos a toda Argentina!">
+    <meta name="keywords" content="joyas, joyería, anillos, collares, pendientes, oro, plata, diamantes, hurlingham, argentina">
+    <link rel="stylesheet" href="/assets/aos.css">
+    <link href="src/output.css" rel="stylesheet">
+  
+</head>
+<body class="bg-black ">
+  
+ <header id="mainHeader" class="sticky top-0 z-50 transition-all duration-300">
+    <div id="headerContent" class="w-full h-[90px] p-5 flex items-center text-white transition-all duration-300">
+
+        <div class="w-1/3 flex items-center">
+          <button id="menug">
+               <svg class="icon size-5">
+                <use href="sprite.svg#menu"></use>
+            </svg>
+
+          </button>
+         
+        </div>
+        
+
+<div id="overlay" class="fixed inset-0 bg-black/50 hidden"></div>
+<aside id="sidebar"
+  class="fixed left-0 top-0 h-full w-64 bg-white text-black shadow transform -translate-x-full transition-transform duration-300">
+  
+  <div class="p-4 flex justify-between items-center">
+    <h2 class="text-lg font-semibold">Menú</h2>
+    <button id="closeMenuBtn" class="p-2">
+      ✕
+    </button>
+  </div>
+
+  <nav class="p-4 space-y-3">
+    <a href="#home" class="block ">Inicio</a>
+    <a href="#products" class="block ">Productos</a>
+    <a href="#about" class="block ">Sobre Nosotros</a>
+    <a href="#design" class="block ">Nuestros diseños</a>
+    <a href="#contact" class="block ">Contacto</a>
+    <a href="#footer" class="block ">Pie de pagina</a>
+  </nav>
+</aside>
+
+
+        <div class="w-1/3 flex justify-center">
+          <a href="#home">
+             <svg class="icon size-10">
+                <use href="sprite.svg#ring"></use>
+            </svg>
+
+          </a>
+           
+        </div>
+
+        <div class="w-1/3 flex justify-end gap-5">
+            <svg class="icon size-5">
+                <use href="sprite.svg#bag"></use>
+            </svg>
+            <svg class="icon size-5">
+                <use href="sprite.svg#user"></use>
+            </svg>
+            <svg class="icon size-5">
+                <use href="sprite.svg#heart"></use>
+            </svg>
+        </div>
+
+    </div>
+</header>
+<section id="home" class="scroll-smooth h-screen w-full bg-[url(/img/bg.webp)] bg-auto lg:bg-cover bg-center bg-no-repeat ">
+
+
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-50">
+  <div class="grid gap-5 justify-center text-center ">
+  
+    <a href="#products" class="px-6 py-3  text-white border border-white  hover:bg-white  hover:text-black transition">CONOCER JOYERIA</a>
+    <a href="#contact" class="px-6 py-3 text-sm text-gray-200">Contacto</a>
+</div>
+
+  </div>
+    
+
+<div class="w-full h-full flex justify-center items-center">
+  <model-viewer 
+    src="Untitled.glb"
+   
+    default-camera="Camera.001"
+    disable-zoom
+    tone-mapping="aces"
+    auto-rotate
+    auto-rotate-speed="10"
+    exposure="1.6"
+    environment-image="neutral"
+    auto-rotate-environment="false"
+    interaction-prompt="none"
+    style="width: 80%; height: 80%; background-color: transparent;  "
+  >
+  </model-viewer>
+</div>
+
+</section>
+<section id="products" class="scroll-smooth min-h-screen bg-gray-100 py-14 ">
+  <div  data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100" class="flex gap-5 justify-center place-content-center pt-10"> <!-- Comienzo de menu-->
+    <div class="grid gap-2.5 justify-center text-center place-content-center">
+     <button class="h-[100px] w-[100px] hover:bg-black hover:text-white bg-gray-200 rounded-full p-4 flex justify-center items-center">
+        <svg class="icon size-10  ">
+                <use href="sprite.svg#neck"></use>
+            </svg>
+     </button>
+    <div class="text-sm">Collares</div>
+    </div>
+
+       <div class="grid gap-2.5 justify-center text-center place-content-center">
+     <button class="h-[100px] w-[100px] hover:bg-black hover:text-white bg-gray-200 rounded-full p-4 flex justify-center items-center">
+        <svg class="icon size-10  ">
+                <use href="sprite.svg#ring"></use>
+            </svg>
+          </button>
+    <div class="text-sm">Anillos</div>
+    </div>
+
+
+       <div class="grid gap-2.5 justify-center text-center place-content-center">
+     <button class="h-[100px] w-[100px] hover:bg-black hover:text-white bg-gray-200 rounded-full p-4 flex justify-center items-center">
+        <svg class="icon size-10  ">
+                <use href="sprite.svg#ear"></use>
+            </svg>
+      </button>
+    <div class="text-sm">Pendientes</div>
+    </div>
+
+  </div><!-- Fin de menu-->
+
+  <div class="lg:px-20"><!-- Comienzo productos-->
+    <h1 class="font-thin text-4xl text-center lg:text-start mt-2.5">JOYERIA</h1>
+    <div  data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100" class="grid grid-cols-12 gap-5 mt-5 ">
+
+      <div class="lg:col-span-3 col-span-12 grid">
+        <div class="w-full h-[593px] lg:bg-auto bg-no-repeat bg-center bg-[url(/img/anillo-plata.webp)] transition-all duration-300 hover:bg-[url(/img/anillo-2.webp)]"></div>
+         <div class="grid gap-1 mt-1 text-center lg:text-start">
+            <div class="text-gray-400">Plata, Esmeralda</div>
+          <div class="text-lg">Anillo Esmeralda</div>
+          <div class="text-lg font-bold">$ 1.800.000</div>
+      </div>
+      </div>
+
+      <div class="lg:col-span-3 col-span-12 grid">
+        <div class="w-full h-[593px] lg:bg-auto bg-no-repeat bg-center bg-[url(/img/anillo.webp)] transition-all duration-300 hover:bg-[url(/img/anillo-2.webp)]"></div>
+         <div class="grid gap-1 mt-1 text-center lg:text-start">
+            <div class="text-gray-400">Oro amarillo, diamante</div>
+          <div class="text-lg">Anillo Clásico RUBY</div>
+          <div class="text-lg font-bold">$ 1.030.000</div>
+      </div>
+      </div>
+
+      <div class="lg:col-span-3 col-span-12 grid">
+        <div class="w-full h-[593px] lg:bg-auto bg-no-repeat bg-center bg-[url(/img/anillo-oro-rosa.webp)] transition-all duration-300 hover:bg-[url(/img/anillo-2.webp)] "></div>
+         <div class="grid gap-1 mt-1 text-center lg:text-start">
+            <div class="text-gray-400">Oro Rosa, rubi</div>
+          <div class="text-lg">Anillo Oro Rosa</div>
+          <div class="text-lg font-bold">$ 2.000.000</div>
+      </div>
+      </div>
+
+      <div class="lg:col-span-3 col-span-12 grid">
+        <div class="w-full h-[593px] lg:bg-auto bg-no-repeat bg-center bg-[url(/img/anillo-plata-925.webp)] transition-all duration-300 hover:bg-[url(/img/anillo-2.webp)]"></div>
+         <div class="grid gap-1 mt-1 text-center lg:text-start">
+            <div class="text-gray-400">Plata 925, diamante purpura</div>
+          <div class="text-lg">Anillo 925</div>
+          <div class="text-lg font-bold">$ 350.000</div>
+      </div>
+      </div>
+      
+    
+    </div>
+
+  </div><!-- Fin de productos-->
+
+</section>
+<section id="about" class="scroll-smooth min-h-screen bg-black  justify-center text-white">
+  <div  data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100" class="grid grid-cols-12 justify-center place-items-center">
+    <div class="lg:col-span-6 col-span-12">
+      <img src="img/caja.webp" alt="Caja de anillo Ruby">
+    </div>
+    <div class="grid lg:col-span-6 col-span-12 my-auto  mx-9 gap-2.5">
+      <h2 class="text-4xl font-thin ">SOBRE NOSOTROS</h2>
+      <p class=" text-lg">En Ruby Joyas creemos que cada pieza cuenta una historia. Somos un emprendimiento de Hurlingham, Buenos Aires, dedicado a crear joyas únicas que combinan calidad, elegancia y diseño atemporal.</p>
+      <p class=" text-lg">Nos apasiona brindar una experiencia de compra cercana y confiable. Por eso realizamos envíos a toda la Argentina, asegurándonos de que tus joyas lleguen con la protección y el cuidado que merecen.</p>
+    <div class="flex justify-end my-4">
+      <a href="#" class="px-6 py-3  text-white border border-white  hover:bg-white  hover:text-black transition">Leer más</a>
+    </div>
+    </div>
+  </div>
+  
+
+</section>
+<section id="design" class="scroll-smooth min-h-screen bg-gray-100 justify-center text-black">
+  <div class="grid grid-cols-12 h-screen">
+      <div data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100"  class="grid gap-4 lg:col-span-6 col-span-12 justify-center my-auto  mx-9">
+       <h2 class="text-4xl font-thin">NUESTROS DISEÑOS</h2>
+      <p class=" text-lg">Ofrecemos una amplia selección de anillos de oro, plata y bronce, trabajados con dedicación y cuidado, muchos de ellos engalanados con diamantes naturales que realzan su belleza y autenticidad. Cada pieza es elaborada pensando en acompañarte en tus momentos más especiales: compromisos, regalos inolvidables o simplemente para brillar todos los días.</p>
+      <p class=" text-lg">En Ruby Joyas, no solo vendemos joyas: creamos recuerdos que duran para siempre.</p>
+    <div class="flex justify-end mt-4">
+      <a href="#" class="px-6 py-3  text-black border border-black hover:bg-black  hover:text-white transition">Leer más</a>
+    </div>
+     </div>
+    <div class="lg:col-span-6 col-span-12  bg-[url(/img/diseño.webp)] bg-center bg-cover">
+
+    </div>
+   
+  </div>
+</section>
+<section id="contact" class="scroll-smooth min-h-screen bg-black  justify-center text-white ">
+<div  data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100" class="grid grid-cols-12">
+  <div class="col-span-12 lg:col-span-6 font-thin my-auto  mx-9">
+    <div class="grid gap-2.5">
+    <form onsubmit="enviarFormulario(event)">
+<div class="grid gap-2.5">
+<h2 class="text-4xl my-10">CONTACTO</h2>
+
+
+<p class="text-xl">Nombre</p>
+<input type="text" class="w-full bg-white text-black h-16" required>
+
+
+<p class="text-xl">Email</p>
+<input type="email" class="w-full bg-white text-black h-16" required>
+
+
+<p class="text-xl">Asunto</p>
+<input type="text" class="w-full bg-white text-black h-16" required>
+
+
+<p class="text-xl">Mensaje</p>
+<textarea class="w-full bg-white text-black h-[300px] p-2" required></textarea>
+
+
+<div class="flex justify-end mt-4">
+<button class="px-6 py-3 text-white border border-white hover:bg-white hover:text-black transition" type="submit">Enviar mensaje</button>
+</div>
+</div>
+</form>
+    </div>
+
+  </div>
+  <div class="lg:flex col-span-12 lg:col-span-6  m-4 text-start justify-center place-items-center">
+    <div class="grid gap-5 ">
+      <p class="text-2xl font-thin "> Póngase en contacto con nosotros</p>
+      <div class="flex gap-2.5 mt-4">   <svg class="icon size-6  ">
+                <use href="sprite.svg#phone"></use>
+            </svg> <p class="text-xl font-thin">+1 555-0199</p></div>
+
+        <div class="flex gap-5 ">   <svg class="icon size-6  ">
+                <use href="sprite.svg#email"></use>
+            </svg> <p class="text-xl font-thin">Ruby@example.com</p></div>
+              <div class="flex gap-2.5">   <svg class="icon size-6  ">
+                <use href="sprite.svg#map"></use>
+            </svg> <p class="text-xl font-thin">Hurlingham, Buenos Aires.</p></div>
+      
+    </div>
+      <div class="grid gap-5 my-4 ">
+      <p class="text-xl font-thin "> Redes</p>
+      <div class="flex gap-5">
+        <a href="http://facebook.com/"> <svg class="icon size-6 ">
+                <use href="sprite.svg#facebook"></use>
+            </svg></a>
+        <a href="http://instagram.com">
+             <svg class="icon size-6  ">
+                <use href="sprite.svg#instagram"></use>
+            </svg>
+
+        </a>
+        
+          
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+  
+
+</section>
+
+
+<footer id="footer" class="scroll-smooth min-h-screen bg-gray-100 justify-center text-black">
+  <section id="video" class="relative w-full h-[417px] overflow-hidden">
+  <video 
+    class="absolute top-0 left-0 w-full h-full object-cover"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="img/video.mp4" type="video/mp4" alt="Anillo Ruby en caja">
+  </video>
+</section>
+<div class="   m-4 flex items-center">
+  <div  data-aos="fade"
+  data-aos-duration="800"
+  data-aos-delay="100" class="grid grid-cols-12 gap-6 ">
+    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+      <div class="grid">
+        <h4 class="text-xl">Acerca de Ruby Joyas</h4>
+      </div>
+      <div class="grid gap-3  mt-4">
+        <a href="#">Contacto</a>
+        <a href="#">Sobre nosotros</a>
+        <a href="#">Nuestros diseños</a>
+      </div>
+    </div>
+
+    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+      <div class="grid">
+        <h4 class="text-xl">Tienda</h4>
+      </div>
+      <div class="grid gap-3 mt-4">
+        <a href="#">Todos los productos</a>
+        <a href="#">Carrito</a>
+        <a href="#">Política de compras</a>
+      </div>
+    </div>
+
+    <div class="col-span-12 md:col-span-6 lg:col-span-4">
+      <div class="grid">
+        <h4 class="text-xl">Redes</h4>
+      </div>
+      <div class="grid gap-3  mt-4">
+        <div class="flex gap-5">
+          <a href="http://facebook.com/">
+            <svg class="icon size-7">
+              <use href="sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="http://instagram.com/">
+            <svg class="icon size-7">
+              <use href="sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="flex gap-5">
+          <svg class="icon size-7">
+            <use href="sprite.svg#map"></use>
+          </svg>
+          Hurlingham, Buenos Aires.
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+    
+</div>
+
+  <div class="grid-cols-12 justify-center text-center">
+      <div class="col-span-12">
+        <div>RUBY Joyas ® Sitio web oficial Argentina</div>
+        <div>Diseño de pagina Steven Heredia</div>
+      </div>
+    </div>
+</footer>
+<script src="/assets/aos.js"></script>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+<script>const header = document.getElementById("mainHeader");
+const content = document.getElementById("headerContent");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    header.classList.add("bg-white");
+    content.classList.remove("text-white");
+    content.classList.add("text-black");
+  } else {
+    header.classList.remove("bg-white");
+    content.classList.add("text-white");
+    content.classList.remove("text-black");
+  }
+});
+
+function enviarFormulario(event) {
+event.preventDefault();
+alert("¡Mensaje enviado a Ruby joyas!");
+}
+
+const openBtn = document.getElementById("menug");
+  const closeBtn = document.getElementById("closeMenuBtn");
+  const sidebar = document.getElementById("sidebar");
+  const overlay = document.getElementById("overlay");
+
+  openBtn.addEventListener("click", () => {
+    sidebar.classList.remove("-translate-x-full");
+    overlay.classList.remove("hidden");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    sidebar.classList.add("-translate-x-full");
+    overlay.classList.add("hidden");
+  });
+
+
+  overlay.addEventListener("click", () => {
+    sidebar.classList.add("-translate-x-full");
+    overlay.classList.add("hidden");
+  });
+
+    AOS.init();
+
+</script>
+</body>
+</html>
