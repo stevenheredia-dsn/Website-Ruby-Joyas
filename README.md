@@ -13,3 +13,6 @@ Diseño Web en Figma prototipo https://www.figma.com/proto/wWF7cirl8YpdmFSBkR3ar
 <img width="1660" height="998" alt="Captura de pantalla 2025-11-25 151710" src="https://github.com/user-attachments/assets/fbaccaef-0e23-4e95-ac08-1bc02aee5b5e" />
 <img width="1645" height="992" alt="Captura de pantalla 2025-11-25 151747" src="https://github.com/user-attachments/assets/f207a9a2-0c8a-4327-a791-d3f3e5e57532" />
 <img width="1723" height="987" alt="Captura de pantalla 2025-11-25 152009" src="https://github.com/user-attachments/assets/0e4781b5-fe4f-406a-8441-1126369d8188" />
+
+https://github.com/user-attachments/assets/e55221de-2edd-43de-8e59-98d305dd33c1
+
